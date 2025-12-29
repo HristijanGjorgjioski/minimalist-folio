@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hristijan Gjorgjioski | Senior Full-Stack Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #34495e;
+            --accent: #3498db;
+            --text: #333;
+            --light: #f4f7f6;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: #fff;
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.6rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 0.5rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2.5rem 2rem;
+        }
+
+        section {
+            margin-bottom: 3.5rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+        }
+
+        .profile-text {
+            font-size: 1.1rem;
+            color: var(--secondary);
+        }
+
+        .job {
+            margin-bottom: 2.2rem;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+
+        .job-title {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .job-meta {
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .job ul {
+            margin-left: 1.2rem;
+            margin-top: 0.6rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-cat h3 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary);
+        }
+
+        .skill-cat p {
+            font-size: 0.95rem;
+        }
+
+        /* Testimonials */
+        .testimonial {
+            background: var(--light);
+            padding: 1.5rem;
+            border-left: 4px solid var(--accent);
+            margin-bottom: 1.5rem;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            margin-bottom: 0.6rem;
+        }
+
+        .testimonial span {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .cta-container {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 3rem;
+            background: var(--light);
+            border-radius: 8px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: 0.2s ease;
+        }
+
+        .btn:hover {
+            background: #2c82c9;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #888;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hristijan Gjorgjioski</h1>
+    <p>Senior Backend / Full-Stack Engineer</p>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Profile</h2>
+        <p class="profile-text">
+            Senior backend engineer specializing in scalable systems, distributed architectures,
+            and production-grade APIs. Experienced in leading teams and delivering high-impact solutions
+            across fintech and SaaS products.
+        </p>
+    </section>
+
+    <section>
+        <h2>Core Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-cat">
+                <h3>Backend</h3>
+                <p>Node.js, NestJS, PostgreSQL, Redis, REST, GraphQL</p>
+            </div>
+            <div class="skill-cat">
+                <h3>Infrastructure</h3>
+                <p>Azure, Terraform, Docker, CI/CD</p>
+            </div>
+            <div class="skill-cat">
+                <h3>Architecture</h3>
+                <p>System Design, Scalability, Authentication, Performance</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">The Digital Fox — Team Lead</span>
+                <span class="job-meta">05.2023 – 12.2025</span>
+            </div>
+            <ul>
+                <li>Architected and scaled a payment platform processing over <strong>$10k/day</strong>.</li>
+                <li>Led backend architecture, security, and system design decisions.</li>
+                <li>Mentored developers and enforced engineering best practices.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Bright-Marbles — Full Stack Engineer</span>
+                <span class="job-meta">02.2024 – 05.2025</span>
+            </div>
+            <ul>
+                <li>Delivered onboarding and analytics features used by thousands of users.</li>
+                <li>Improved system stability and performance under production load.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section>
+        <h2>Testimonials</h2>
+
+        <div class="testimonial">
+            <p>“Hristijan consistently delivered high-quality backend solutions and took full ownership of critical systems. A reliable and technically strong engineer.”</p>
+            <span>— Technical Lead, The Digital Fox</span>
+        </div>
+
+        <div class="testimonial">
+            <p>“He combines strong system design thinking with excellent execution. His work significantly improved our product stability and scalability.”</p>
+            <span>— Product Manager, Bright Marbles</span>
+        </div>
+    </section>
+
+    <div class="cta-container">
+        <h3>Interested in working together?</h3>
+        <p>Download my full CV or reach out directly.</p>
+        <a class="btn" href="HristijanResume.pdf">Download CV</a>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Hristijan Gjorgjioski · Built with clean HTML & CSS
+</footer>
+
+</body>
+</html>
