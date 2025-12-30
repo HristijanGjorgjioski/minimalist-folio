@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +16,11 @@
             --light: #f4f7f6;
         }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -160,93 +165,154 @@
 
 <body>
 
-<header>
-    <h1>Hristijan Gjorgjioski</h1>
-    <p>Senior Backend / Full-Stack Engineer</p>
-</header>
+    <header>
+        <h1>Hristijan Gjorgjioski</h1>
+        <p>Senior Backend / Full-Stack Engineer</p>
+    </header>
 
-<div class="container">
+    <div class="container">
 
-    <section>
-        <h2>Profile</h2>
-        <p class="profile-text">
-            Senior backend engineer specializing in scalable systems, distributed architectures,
-            and production-grade APIs. Experienced in leading teams and delivering high-impact solutions
-            across fintech and SaaS products.
-        </p>
-    </section>
+        <section>
+            <h2>Profile</h2>
+            <p class="profile-text">
+                Senior backend engineer specializing in scalable systems, distributed architectures,
+                and production-grade APIs. Experienced in leading teams and delivering high-impact solutions
+                across fintech and SaaS products.
+            </p>
+        </section>
 
-    <section>
-        <h2>Core Expertise</h2>
-        <div class="skills-grid">
-            <div class="skill-cat">
-                <h3>Backend</h3>
-                <p>Node.js, NestJS, PostgreSQL, Redis, REST, GraphQL</p>
+        <section>
+            <h2>Core Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-cat">
+                    <h3>Backend</h3>
+                    <p>Node.js, NestJS, PostgreSQL, Redis, REST, GraphQL</p>
+                </div>
+                <div class="skill-cat">
+                    <h3>Infrastructure</h3>
+                    <p>Azure, Terraform, Docker, CI/CD</p>
+                </div>
+                <div class="skill-cat">
+                    <h3>Architecture</h3>
+                    <p>System Design, Scalability, Authentication, Performance</p>
+                </div>
             </div>
-            <div class="skill-cat">
-                <h3>Infrastructure</h3>
-                <p>Azure, Terraform, Docker, CI/CD</p>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">The Digital Fox — Team Lead</span>
+                    <span class="job-meta">05.2025 – 12.2025</span>
+                </div>
+                <ul>
+                    <li>Architected and scaled a payment platform processing over <strong>$10k/day</strong>.</li>
+                    <li>Led backend architecture, security, and system design decisions.</li>
+                    <li>Mentored developers and enforced engineering best practices.</li>
+                </ul>
             </div>
-            <div class="skill-cat">
-                <h3>Architecture</h3>
-                <p>System Design, Scalability, Authentication, Performance</p>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Bright-Marbles — Full Stack Engineer</span>
+                    <span class="job-meta">02.2024 – 05.2025</span>
+                </div>
+                <ul>
+                    <li>Delivered onboarding and analytics features used by thousands of users.</li>
+                    <li>Improved system stability and performance under production load.</li>
+                    <li>Worked on <a target="_blank" href="https://anyone.com">anyone.com</a></li>
+                </ul>
             </div>
-        </div>
-    </section>
 
-    <section>
-        <h2>Experience</h2>
-
-        <div class="job">
-            <div class="job-header">
-                <span class="job-title">The Digital Fox — Team Lead</span>
-                <span class="job-meta">05.2023 – 12.2025</span>
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">GrabIT — Full Stack Engineer</span>
+                    <span class="job-meta">12.2022 – 02.2024</span>
+                </div>
+                <ul>
+                    <li>Scaled a celebrity ad-posting platform to support 7,500 concurrent users using Next.js and
+                        NestJS.</li>
+                    <li>Designed backend APIs and optimized performance under high load.</li>
+                </ul>
             </div>
-            <ul>
-                <li>Architected and scaled a payment platform processing over <strong>$10k/day</strong>.</li>
-                <li>Led backend architecture, security, and system design decisions.</li>
-                <li>Mentored developers and enforced engineering best practices.</li>
-            </ul>
-        </div>
 
-        <div class="job">
-            <div class="job-header">
-                <span class="job-title">Bright-Marbles — Full Stack Engineer</span>
-                <span class="job-meta">02.2024 – 05.2025</span>
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Rhino Entertainment — Full Stack Engineer</span>
+                    <span class="job-meta">04.2022 – 11.2022</span>
+                </div>
+                <ul>
+                    <li>Online Casinos</li>
+                    <li>Built internal npm package that raise user conversion rate by 25%</li>
+                    <li>React + Nest.js</li>
+                </ul>
             </div>
-            <ul>
-                <li>Delivered onboarding and analytics features used by thousands of users.</li>
-                <li>Improved system stability and performance under production load.</li>
-            </ul>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">IWConnect — Full Stack Engineer</span>
+                    <span class="job-meta">04.2021 – 04.2022</span>
+                </div>
+                <ul>
+                    <li>Developed high-performance administrative dashboards
+                        using Laravel and React, enabling real-time data visualization
+                        for client Ruby Ribbon</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section>
+            <h2>Testimonials</h2>
+
+            <div class="testimonial">
+                <p>“I really appreciated working with Kiko. He is organized, structured, and knows his stuff. More
+                    importantly he is an eager learner which is an important skill today. Kiko is a genuinely good
+                    person and a reliable colleague. Good to have on the team.”</p>
+                <span>Bane Patchev, Co-Founder@The Digital Fox</span>
+            </div>
+
+            <div class="testimonial">
+                <p>“I worked closely with Hristijan at The Digital Fox, and he’s one of those developers you trust with
+                    real responsibility.
+
+                    He’s a strong full-stack engineer with excellent JavaScript and TypeScript skills, comfortable
+                    owning features end-to-end and delivering high-quality, production-ready code. He thinks ahead,
+                    anticipates issues early, and approaches problems with clarity and discipline.
+
+                    He’s reliable, professional, and easy to collaborate with, the kind of teammate who adds value both
+                    technical and personal side of things.
+
+                    I’d gladly work with him again and strongly recommend him to any team looking for a capable
+                    full-stack developer.”</p>
+                <span>Stefan Shipinkoski, Lead Data Scientist@The Digital Fox</span>
+            </div>
+
+            <div class="testimonial">
+                <p>“I had the pleasure of working with Hristijan during my time at GrabIT, and from the very beginning,
+                    it was clear that he is exceptionally talented, ambitious, and eager to learn. He approaches every
+                    challenge with curiosity, dedication, and a strong drive to improve himself.
+
+                    What stands out the most is his passion for growth and his willingness to go the extra mile to
+                    achieve his goals. I’m confident that Hristijan will continue to achieve great things in his career,
+                    and any team would be lucky to have him.”</p>
+                <span>Viktorija Damchevska, PeopleOperation, Disrupt HR</span>
+            </div>
+        </section>
+
+        <div class="cta-container">
+            <h3 style="margin-bottom: 8px;">Interested in working together?</h3>
+            <a class="btn" href="HristijanResume.pdf">Download CV</a>
         </div>
-    </section>
 
-    <!-- TESTIMONIALS -->
-    <section>
-        <h2>Testimonials</h2>
-
-        <div class="testimonial">
-            <p>“Hristijan consistently delivered high-quality backend solutions and took full ownership of critical systems. A reliable and technically strong engineer.”</p>
-            <span>— Technical Lead, The Digital Fox</span>
-        </div>
-
-        <div class="testimonial">
-            <p>“He combines strong system design thinking with excellent execution. His work significantly improved our product stability and scalability.”</p>
-            <span>— Product Manager, Bright Marbles</span>
-        </div>
-    </section>
-
-    <div class="cta-container">
-        <h3>Interested in working together?</h3>
-        <p>Download my full CV or reach out directly.</p>
-        <a class="btn" href="HristijanResume.pdf">Download CV</a>
     </div>
 
-</div>
-
-<footer>
-    © 2025 Hristijan Gjorgjioski · Built with clean HTML & CSS
-</footer>
+    <footer>
+        © 2025 Hristijan Gjorgjioski · Built with clean HTML & CSS
+    </footer>
 
 </body>
+
 </html>
